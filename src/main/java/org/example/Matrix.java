@@ -44,7 +44,7 @@ public class Matrix {
                 for (int j = 0; j < columnsMatrixB; j++) {
                     // Inner loop: iterate through each element of the current row of matrixA and current column of matrixB
                     for (int k = 0; k < columnsMatrixA; k++) {
-                        // Accumulate the product of the corresponding elements in the current row of matrixA and the current column of matrixB
+
                         product += matrixA[i][k] * matrixB[k][j];
                     }
                     matrixC[i][j] = product;
