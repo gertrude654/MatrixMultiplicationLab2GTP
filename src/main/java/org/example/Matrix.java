@@ -88,9 +88,11 @@ public class Matrix {
 
                     for (int i = 0; i < rows; i++) {
                         for (int j = 0; j < columns; j++) {
-                            System.out.println("Enter number for ["+i+"]["+j+"]: ");
-                            int input = sc.nextInt();
-                            matrixA[i][j] = input;
+
+                            matrixA[i][j]= (int) (Math.random()*10);
+//                            System.out.println("Enter number for ["+i+"]["+j+"]: ");
+//                            int input = sc.nextInt();
+//                            matrixA[i][j] = input;
                         }
                     }
                     for (int i = 0; i < rows; i++) {
